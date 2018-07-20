@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample test suite">
+    <parameter name="browserName" value="firefox"/>
+    <parameter name="implicitWaitInSeconds" value="15"/>
+
+    <test name="Google Search Test">
+        <classes>
+            <class name="Selenium"/>
+        </classes>
+    </test>
+
+</suite>
